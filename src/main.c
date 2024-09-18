@@ -97,16 +97,16 @@ int main(int argc, char *argv[]) {
                     printf("No es pot calcular l'arrel quadrada d'un número negatiu!\n");
                     return 1;
                 }
-                //printf("Resultat de l'arrel quadrada: %.2f\n", arrel(num1));
-                printf("Not implemented yet!\n");
+                printf("Resultat de l'arrel quadrada: %.2f\n", arrel(num1));
+                //printf("Not implemented yet!\n");
                 break;
 
             case 'p':
                 if (argc >= optind + 1) {
                     num1 = atof(optarg);
                     num2 = atof(argv[optind]);
-                    //printf("Resultat de la potència: %.2f\n", potencia(num1, num2));
-                    printf("Not implemented yet!\n");
+                    printf("Resultat de la potència: %.2f\n", potencia(num1, num2));
+                    //printf("Not implemented yet!\n");
                 } else {
                     printf("Falten arguments per a la potència.\n");
                     return 1;
